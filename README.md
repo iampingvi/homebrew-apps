@@ -1,3 +1,3 @@
-# Homebrew Tap for MIMP
+# Homebrew Tap for PINGVI apps
 
-Official tap for MIMP.
+Official tap for PINGVI apps.
