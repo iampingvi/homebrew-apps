@@ -1,15 +1,15 @@
 {
-  "version": "1.2.9",
-  "published_at": "2026-05-21T02:27:37Z",
-  "changelog": "# Changelog\n\n## [1.2.9] - Homebrew Cask Integration\n\n### Added\n- Added `auto_updates true` to the Homebrew Cask specification. This ensures that Homebrew recognizes the built-in updater, prevents conflicts between `brew upgrade` and the application's auto-update flow, and eliminates \"already an App\" errors during installation/upgrade.\n\n## [1.2.8] - Deployment and Info.plist Sync Fix\n\n### Fixed\n- Fixed deployment script (`deploy.sh`) to stage all changes (`git add .`) instead of only staging version config files. This ensures `Info.plist` and all source code updates are correctly built in GitHub releases.\n- Consolidated `Info.plist` with all required standard bundle metadata keys to restore file association registration and auto-updater functionality.\n\n## [1.2.7] - Welcome Screen Interaction Fix\n\n### Fixed\n- Fixed an issue where the \"Set as Default\" button on the welcome screen became non-responsive due to errors during file association setting. System failures are now safely logged, ensuring the setup flow completes successfully.\n\n## [1.2.6] - ALAC Playback Fix\n\n### Fixed\n- ALAC playback issue where files with `.alac` extension failed to play due to `AVURLAsset` error parsing metadata. Added safe fallback to allow playback without metadata crash.\n\n## [1.2.5] - Window Size Fix\n\n### Fixed\n- Drop zone window is no longer slightly taller than the player window — both states now use the same fixed height.",
+  "version": "1.2.10",
+  "published_at": "2026-05-21T02:34:18Z",
+  "changelog": "# Changelog\n\n## [1.2.10] - UI Constraints Rule\n\n### Added\n- Created project instructions for strict short changelogs.\n\n## [1.2.9] - Homebrew Fix\n\n### Added\n- Added `auto_updates true` to the Homebrew Cask specs.\n\n## [1.2.8] - Deployment Fix\n\n### Fixed\n- Fixed `deploy.sh` to stage all project files.\n- Restored standard bundle keys in `Info.plist`.\n\n## [1.2.7] - Welcome Screen Fix\n\n### Fixed\n- Fixed unresponsive welcome screen button via safe do-catch blocks.\n\n## [1.2.6] - ALAC Fix\n\n### Fixed\n- Fixed metadata parsing crash for ALAC and CAF formats.\n\n## [1.2.5] - Window Fix\n\n### Fixed\n- Equalized drop zone window height with active player state.",
   "assets": {
     "arm64": {
-      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.2.9/MIMP-arm64.zip",
-      "sha256": "946c3d2711e800b45b1cf69507b73098e7c9670b538d3e94d310569c99bf39b4"
+      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.2.10/MIMP-arm64.zip",
+      "sha256": "5bb4821344175dab15a16378886c0acc4aa22dc12de26494bd7948d649abff1a"
     },
     "x64": {
-      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.2.9/MIMP-x64.zip",
-      "sha256": "fabbbb607b3cfa6df4dfd9df5ed870df91e6a195322edcfdfff18d255712465a"
+      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.2.10/MIMP-x64.zip",
+      "sha256": "64737d22daf8e3e615f472db4445035b3dc19dd053d3f6e9af87afcc2ec74a1e"
     }
   }
 }
