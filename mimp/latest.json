@@ -1,15 +1,15 @@
 {
-  "version": "1.2.7",
-  "published_at": "2026-05-21T02:07:05Z",
-  "changelog": "# Changelog\n\n## [1.2.7] - Welcome Screen Interaction Fix\n\n### Fixed\n- Fixed an issue where the \"Set as Default\" button on the welcome screen became non-responsive due to errors during file association setting. System failures are now safely logged, ensuring the setup flow completes successfully.\n\n## [1.2.6] - ALAC Playback Fix\n\n### Fixed\n- ALAC playback issue where files with `.alac` extension failed to play due to `AVURLAsset` error parsing metadata. Added safe fallback to allow playback without metadata crash.\n\n## [1.2.5] - Window Size Fix\n\n### Fixed\n- Drop zone window is no longer slightly taller than the player window — both states now use the same fixed height.\n\n### Added\n- **ALAC (Apple Lossless Audio Codec)** support — drag & drop `.alac` files directly into the player.\n- **CAF (Core Audio Format)** support — `.caf` files are now recognized and playable.\n- Both formats are treated as lossless and display accurate high-resolution bitrate info.\n- ALAC and CAF are automatically registered as supported handlers during first launch setup.",
+  "version": "1.2.8",
+  "published_at": "2026-05-21T02:12:12Z",
+  "changelog": "# Changelog\n\n## [1.2.8] - Deployment and Info.plist Sync Fix\n\n### Fixed\n- Fixed deployment script (`deploy.sh`) to stage all changes (`git add .`) instead of only staging version config files. This ensures `Info.plist` and all source code updates are correctly built in GitHub releases.\n- Consolidated `Info.plist` with all required standard bundle metadata keys to restore file association registration and auto-updater functionality.\n\n## [1.2.7] - Welcome Screen Interaction Fix\n\n### Fixed\n- Fixed an issue where the \"Set as Default\" button on the welcome screen became non-responsive due to errors during file association setting. System failures are now safely logged, ensuring the setup flow completes successfully.\n\n## [1.2.6] - ALAC Playback Fix\n\n### Fixed\n- ALAC playback issue where files with `.alac` extension failed to play due to `AVURLAsset` error parsing metadata. Added safe fallback to allow playback without metadata crash.\n\n## [1.2.5] - Window Size Fix\n\n### Fixed\n- Drop zone window is no longer slightly taller than the player window — both states now use the same fixed height.",
   "assets": {
     "arm64": {
-      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.2.7/MIMP-arm64.zip",
-      "sha256": "7ef81c3f91946d760f5405361e8ccac4740eaed77d5ba2ae6e8fe9e8ade22d26"
+      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.2.8/MIMP-arm64.zip",
+      "sha256": "8650fb4f0617c756c25f63ceb2c4c5c981485f3514c18642b983ce827cd567cc"
     },
     "x64": {
-      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.2.7/MIMP-x64.zip",
-      "sha256": "adccf77c56acc95606082fb5bdb1ae578fbdc23dad1b212b66cf3c386c5895a6"
+      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.2.8/MIMP-x64.zip",
+      "sha256": "7f90ca97a792970a24c679539c528af4a3b7e814bcd065dbb48b292d0f65b6ef"
     }
   }
 }
