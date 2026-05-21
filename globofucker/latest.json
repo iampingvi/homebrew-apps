@@ -1,11 +1,11 @@
 {
-  "version": "1.0.1",
-  "published_at": "2026-05-21T20:08:08Z",
-  "changelog": "## [1.0.1]\n\n### Added\n- Автоматическое обновление приложения GloboFucker и интеграция с Homebrew.\n- Оптимизированный промо-сайт с поддержкой автоапдейтов.",
+  "version": "1.0.2",
+  "published_at": "2026-05-21T20:10:15Z",
+  "changelog": "## [1.0.2]\n\n### Added\n- Исправлено отображение списка изменений (Changelog) в окне обновлений.",
   "assets": {
     "arm64": {
-      "url": "https://github.com/iampingvi/GloboFucker/releases/download/v1.0.1/GloboFucker.zip",
-      "sha256": "759ba7bfd9e42fa3af590418ad59ca52a88a633af69d923bd65f0d98859d0508"
+      "url": "https://github.com/iampingvi/GloboFucker/releases/download/v1.0.2/GloboFucker.zip",
+      "sha256": "cf06af9ad8152e4f7d6d4d29c083150dae91d79c1e5c3f4e2005341ea775d001"
     }
   }
 }
