@@ -1,15 +1,15 @@
 {
-  "version": "1.2.3",
-  "published_at": "2026-05-21T01:33:39Z",
-  "changelog": "# Changelog\n\n## [1.2.3] - ALAC Support Release\n\n### Added\n- **ALAC (Apple Lossless Audio Codec)** support — drag & drop `.alac` files directly into the player.\n- **CAF (Core Audio Format)** support — `.caf` files are now recognized and playable.\n- Both formats are treated as lossless and display accurate high-resolution bitrate info.\n- ALAC and CAF are automatically registered as supported handlers during first launch setup.",
+  "version": "1.2.4",
+  "published_at": "2026-05-21T01:37:23Z",
+  "changelog": "# Changelog\n\n## [1.2.4] - Hotfix\n\n### Fixed\n- Update notification now correctly displays changelog with `## [x.x.x]` version headers.\n- Bold and inline code markers are stripped from changelog items for clean display.\n\n### Added\n- **ALAC (Apple Lossless Audio Codec)** support — drag & drop `.alac` files directly into the player.\n- **CAF (Core Audio Format)** support — `.caf` files are now recognized and playable.\n- Both formats are treated as lossless and display accurate high-resolution bitrate info.\n- ALAC and CAF are automatically registered as supported handlers during first launch setup.",
   "assets": {
     "arm64": {
-      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.2.3/MIMP-arm64.zip",
-      "sha256": "a61d7a5594bce2b7a38d265db72e7344ef777013cc0e242275022cf879b6f0cc"
+      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.2.4/MIMP-arm64.zip",
+      "sha256": "7ec9c6a418b1a2b95d0955435a303d5241a8cf076faf3b0d6171e47ebe17e76f"
     },
     "x64": {
-      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.2.3/MIMP-x64.zip",
-      "sha256": "8cdcc7d276b3750ca0cf63779d9aae76ce899a53bf25b8190ed809900a0204b1"
+      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.2.4/MIMP-x64.zip",
+      "sha256": "e455f9f96f1188d31c688512b3062de0550673c38ec840364be9d2b82cf3bb20"
     }
   }
 }
