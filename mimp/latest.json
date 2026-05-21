@@ -1,15 +1,15 @@
 {
-  "version": "1.2.10",
-  "published_at": "2026-05-21T02:34:18Z",
-  "changelog": "# Changelog\n\n## [1.2.10] - UI Constraints Rule\n\n### Added\n- Created project instructions for strict short changelogs.\n\n## [1.2.9] - Homebrew Fix\n\n### Added\n- Added `auto_updates true` to the Homebrew Cask specs.\n\n## [1.2.8] - Deployment Fix\n\n### Fixed\n- Fixed `deploy.sh` to stage all project files.\n- Restored standard bundle keys in `Info.plist`.\n\n## [1.2.7] - Welcome Screen Fix\n\n### Fixed\n- Fixed unresponsive welcome screen button via safe do-catch blocks.\n\n## [1.2.6] - ALAC Fix\n\n### Fixed\n- Fixed metadata parsing crash for ALAC and CAF formats.\n\n## [1.2.5] - Window Fix\n\n### Fixed\n- Equalized drop zone window height with active player state.",
+  "version": "1.2.11",
+  "published_at": "2026-05-21T02:36:56Z",
+  "changelog": "# Changelog\n\n## [1.2.11] - Launchpad Fix\n\n### Fixed\n- Fixed background activation issue on launch and reopen.\n\n## [1.2.10] - UI Constraints Rule\n\n### Added\n- Created project instructions for strict short changelogs.\n\n## [1.2.9] - Homebrew Fix\n\n### Added\n- Added `auto_updates true` to the Homebrew Cask specs.\n\n## [1.2.8] - Deployment Fix\n\n### Fixed\n- Fixed `deploy.sh` to stage all project files.\n- Restored standard bundle keys in `Info.plist`.\n\n## [1.2.7] - Welcome Screen Fix\n\n### Fixed\n- Fixed unresponsive welcome screen button via safe do-catch blocks.\n\n## [1.2.6] - ALAC Fix\n\n### Fixed\n- Fixed metadata parsing crash for ALAC and CAF formats.\n\n## [1.2.5] - Window Fix\n\n### Fixed\n- Equalized drop zone window height with active player state.",
   "assets": {
     "arm64": {
-      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.2.10/MIMP-arm64.zip",
-      "sha256": "5bb4821344175dab15a16378886c0acc4aa22dc12de26494bd7948d649abff1a"
+      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.2.11/MIMP-arm64.zip",
+      "sha256": "df03c0bb95b86a61bc2ff5052c46976231abf07448aa45a7728979b1da5e089b"
     },
     "x64": {
-      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.2.10/MIMP-x64.zip",
-      "sha256": "64737d22daf8e3e615f472db4445035b3dc19dd053d3f6e9af87afcc2ec74a1e"
+      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.2.11/MIMP-x64.zip",
+      "sha256": "da8f7fdf0709741b9ba2707430b52f7547490b19e722836b1123fa5eb3c5c10f"
     }
   }
 }
