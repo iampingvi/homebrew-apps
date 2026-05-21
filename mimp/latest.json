@@ -1,15 +1,15 @@
 {
-  "version": "1.2.13",
-  "published_at": "2026-05-21T02:41:41Z",
-  "changelog": "# Changelog\n\n## [1.2.13] - Launch Focus Fix\n\n### Fixed\n- App starts as regular to gain focus, then shifts to accessory.\n\n## [1.2.12] - Updater Fix\n\n### Fixed\n- Fixed auto-updater relaunch logic to wait for old PID to exit.\n\n## [1.2.11] - Launchpad Fix\n\n### Fixed\n- Fixed background activation issue on launch and reopen.\n\n## [1.2.10] - UI Constraints Rule\n\n### Added\n- Created project instructions for strict short changelogs.\n\n## [1.2.9] - Homebrew Fix\n\n### Added\n- Added `auto_updates true` to the Homebrew Cask specs.\n\n## [1.2.8] - Deployment Fix\n\n### Fixed\n- Fixed `deploy.sh` to stage all project files.\n- Restored standard bundle keys in `Info.plist`.\n\n## [1.2.7] - Welcome Screen Fix\n\n### Fixed\n- Fixed unresponsive welcome screen button via safe do-catch blocks.\n\n## [1.2.6] - ALAC Fix\n\n### Fixed\n- Fixed metadata parsing crash for ALAC and CAF formats.\n\n## [1.2.5] - Window Fix\n\n### Fixed\n- Equalized drop zone window height with active player state.",
+  "version": "1.2.14",
+  "published_at": "2026-05-21T02:55:44Z",
+  "changelog": "# Changelog\n\n## [1.2.14] - Dock Icon Fix\n\n### Fixed\n- Dock icon briefly appears during launch.",
   "assets": {
     "arm64": {
-      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.2.13/MIMP-arm64.zip",
-      "sha256": "b2b48e52d1bce7a5585f57c84ee487ef8b042b2756af33324e26d40bafb2d4c4"
+      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.2.14/MIMP-arm64.zip",
+      "sha256": "20ff4da3b53acd6afbf76c238aaf15a858974bd212fd6f73807b4b0026e677ca"
     },
     "x64": {
-      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.2.13/MIMP-x64.zip",
-      "sha256": "d96106f957a2eb3e048ef31112a13f8f285555567efebbc7caa262d160a882f8"
+      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.2.14/MIMP-x64.zip",
+      "sha256": "b50f8646c8172f7f55e3a801a1ea3d7e30dffa39b2c479dfdfa2a271308a6776"
     }
   }
 }
