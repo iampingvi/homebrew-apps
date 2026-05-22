@@ -1,11 +1,11 @@
 {
   "version": "1.0.7",
-  "published_at": "2026-05-22T19:24:06Z",
+  "published_at": "2026-05-22T19:25:31Z",
   "changelog": "## [1.0.7]\n\n### Fixed\n- Исправлено открытие раздела настроек: при клике на \"Предоставить разрешения\" теперь открывается непосредственно раздел \"Специальные возможности\" (Accessibility) на современных macOS (Sequoia/Sonoma/Ventura).",
   "assets": {
     "arm64": {
       "url": "https://github.com/iampingvi/homebrew-apps/releases/download/globofucker-v1.0.7/GloboFucker.zip",
-      "sha256": "93bc92997e5411d332ffc831d36f15d77c16082dfca3dd987f23feb49f8d1130"
+      "sha256": "6413563217f6552a9e164dc8a862af30e641db63f025d6ec0e64d6012c3ed5ce"
     }
   }
 }
