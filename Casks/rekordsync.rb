@@ -1,17 +1,17 @@
 cask "rekordsync" do
-  version "1.0.31"
+  version "1.0.32"
 
   on_intel do
-    sha256 "783fabe3f6c03f7e223465bac37c7d5d388c8d5a3c03fa005fc9f882db5220d0"
+    sha256 "10c477d8d9e92360c7c200aff26a8365c46c673ead664ad40e8f5cbd659d73cf"
     url "https://github.com/iampingvi/homebrew-apps/releases/download/rekordsync-v#{version}/RekordSync-x64.zip"
   end
   on_arm do
-    sha256 "3d0792ead21cf6984c1347547bfe4e4a199c119a94c1d97a041ead04dcc698a7"
+    sha256 "0917c7b32b79d4fa98b693d69d20423f0f84a30c60d7cb3e1f35d473d9f9d787"
     url "https://github.com/iampingvi/homebrew-apps/releases/download/rekordsync-v#{version}/RekordSync-arm64.zip"
   end
 
   name "RekordSync"
-  desc "Sync Rekordbox library to Cloud (Google Drive, Telegram, Local)"
+  desc "Sync Rekordbox library to Cloud (Google Drive, WebDAV FTP SFTP, Local)"
   homepage "https://pingvi.link"
 
   auto_updates true
