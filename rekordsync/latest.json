@@ -1,15 +1,15 @@
 {
-  "version": "1.0.34",
-  "published_at": "2026-05-26T16:33:07Z",
+  "version": "1.0.35",
+  "published_at": "2026-05-27T01:46:59Z",
   "changelog": "\n",
   "assets": {
     "arm64": {
-      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/rekordsync-v1.0.34/RekordSync-arm64.zip",
-      "sha256": "05bdbe10bf5f7cb54429079eebc91fc28810e0aba1bba22dfc07daae271827d8"
+      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/rekordsync-v1.0.35/RekordSync-arm64.zip",
+      "sha256": "2b5b1daf531d1d059e39c8828d4d9ae538f5c27783d94a4ed75195488e45cb8b"
     },
     "x64": {
-      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/rekordsync-v1.0.34/RekordSync-x64.zip",
-      "sha256": "f95074dea64fe367b39d7fea16821a4df0d7afbbbf95a2e9c19113fee2372fd6"
+      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/rekordsync-v1.0.35/RekordSync-x64.zip",
+      "sha256": "8e31cfb2d9fe92602de2c8735fd1aa9690990afe84def8d1292f1929914ff65e"
     }
   }
 }
