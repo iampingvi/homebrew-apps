@@ -1,12 +1,12 @@
 cask "linkup" do
-  version "1.0.3"
+  version "1.0.4"
 
   on_intel do
-    sha256 "8ed532ec06069dbc191702dbb43e79cf52f5f505b95a6532c945ee89bc67bd8e"
+    sha256 "04e5949d89cd8f8f521ed1abaae5a71669ef9ed530d9a551d40731c2a1b98e3f"
     url "https://github.com/iampingvi/homebrew-apps/releases/download/linkup-v#{version}/LinkUp-x64.zip"
   end
   on_arm do
-    sha256 "c921331ea4893c517b3b8ab00822c4f9d0d00a0b283b41989d5fe4d37d4c3808"
+    sha256 "ddd856466ff5bfcd42146ce97e01bcc48a5f36aa909b7e509b6701bdba914b4a"
     url "https://github.com/iampingvi/homebrew-apps/releases/download/linkup-v#{version}/LinkUp-arm64.zip"
   end
 
