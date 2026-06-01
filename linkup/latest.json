@@ -1,15 +1,15 @@
 {
-  "version": "1.0.4",
-  "published_at": "2026-05-31T11:04:43Z",
+  "version": "1.0.5",
+  "published_at": "2026-06-01T14:43:01Z",
   "changelog": "\n",
   "assets": {
     "arm64": {
-      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/linkup-v1.0.4/LinkUp-arm64.zip",
-      "sha256": "8ba5250336dd7c9386689c1173f180eafaef8536869b6b992b1547ec85728103"
+      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/linkup-v1.0.5/LinkUp-arm64.zip",
+      "sha256": "ec0acc5f4f3ae118e6873a0bbfb8633539372f06f08d6867d012940593e20fdd"
     },
     "x64": {
-      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/linkup-v1.0.4/LinkUp-x64.zip",
-      "sha256": "c7dc7328abd19a56b79a885d5210063727dee3caf7420af3890c5c279f86f320"
+      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/linkup-v1.0.5/LinkUp-x64.zip",
+      "sha256": "16c30a63f884cfd1f9cc649129ecdb3090c0a5b1eb89959ce801ac7c6fe0e3d6"
     }
   }
 }
