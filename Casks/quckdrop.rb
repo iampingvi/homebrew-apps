@@ -2,11 +2,11 @@ cask "quckdrop" do
   version "2.2.0"
 
   on_intel do
-    sha256 "a3d526060fa013257b38703261b8a8210a337edb94023f384a2d50ef8dec0e41"
+    sha256 "176aa6861c323caba4dc852f239caa437c0005f9b44bd2fc3c58744c06208646"
     url "https://github.com/iampingvi/homebrew-apps/releases/download/v#{version}/QuckDrop-x64.zip"
   end
   on_arm do
-    sha256 "60e5bd69e0a5dd07c435e0175d42a145976e3fd7beb7a265e45e3f7f8d73d97a"
+    sha256 "400211dc0e3bc0652fb4452ba7f59dddf3190b5421907ba56230ca7ada2fe4ca"
     url "https://github.com/iampingvi/homebrew-apps/releases/download/v#{version}/QuckDrop-arm64.zip"
   end
 
