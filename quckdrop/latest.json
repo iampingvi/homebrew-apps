@@ -1,0 +1,15 @@
+{
+  "version": "2.2.0",
+  "published_at": "2026-06-03T16:40:50Z",
+  "changelog": "## [2.2.0]\n\n### Added\n- Rebranded application from NearDrop to **QuckDrop**\n- Premium SwiftUI About View window in AirDrop style\n- Full 18 macOS languages localization support\n- Safe terminate prevention (windows close to status bar tray)\n- Contacts avatars & names integration\n- Trusted devices (Auto-Accept whitelist)\n- Context menu options to add/remove trusted devices\n- Share Extension and Finder services support",
+  "assets": {
+    "arm64": {
+      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v2.2.0/QuckDrop-arm64.zip",
+      "sha256": "60e5bd69e0a5dd07c435e0175d42a145976e3fd7beb7a265e45e3f7f8d73d97a"
+    },
+    "x64": {
+      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v2.2.0/QuckDrop-x64.zip",
+      "sha256": "a3d526060fa013257b38703261b8a8210a337edb94023f384a2d50ef8dec0e41"
+    }
+  }
+}
