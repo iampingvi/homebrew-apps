@@ -1,11 +1,11 @@
 {
-  "version": "1.1.10",
-  "published_at": "2026-08-23T21:48:35Z",
-  "changelog": "## [1.1.10]\n\n### Fixed\n- Устранены утечки памяти, связанные с некорректной инвалидацией таймера перехвата клавиш (`GlobeKeyRemapper`).\n- Полностью переписана логика быстрого переключения языков (Rapid Tap Prediction), теперь переключение между двумя языками при быстрых нажатиях больше не \"залипает\" на одном и том же языке.\n- Убран хак с глотанием события `.flagsChanged` при отпускании Fn, что предотвращает залипание системного состояния модификаторов после смены языка.\n- Исправлена логика интеграции с Homebrew Cask: теперь после обновления `brew upgrade` приложение будет перезапускаться автоматически, сохраняя автозапуск и настройки.",
+  "version": "1.0.8",
+  "published_at": "2026-08-23T22:50:48Z",
+  "changelog": "### GloboFucker v1.0.8\n\nBug fixes and performance improvements.",
   "assets": {
     "arm64": {
-      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/globofucker-v1.1.10/GloboFucker.zip",
-      "sha256": "a51fdbdab239ad696579c9be99da3c899dcb4009e0afbef4b147e8c58113c3de"
+      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/globofucker-v1.0.8/GloboFucker.zip",
+      "sha256": "53c8713434d66044c77456316c8557d2ab81710c3dc4405aaa30e5614c0be594"
     }
   }
 }
