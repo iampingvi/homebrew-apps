@@ -1,15 +1,15 @@
 {
-  "version": "1.3.0",
-  "published_at": "2026-08-25T22:25:19Z",
-  "changelog": "# Changelog\n\n## [1.3.0] - Audio Intelligence Engine: Key & BPM Detection\n\n### Added\n- **Real-Time Key & Camelot Detection**: Multi-rate spectral analysis with 8x sub-bass decimation for 1.34 Hz root resolution and accurate Camelot wheel classification (e.g. 8A, 2A, 6A).\n- **Tempo & BPM Engine**: Continuous kick-onset envelope autocorrelation with sub-sample refinement, half-time compensation for trap/dubstep/dnb, and clean integer snapping.\n- **Dynamic Playback Badges**: Dedicated audio intelligence badges in the player control bar displaying BPM, musical Key, and format specifications.\n- **SQLite Analysis Cache**: Instant, non-blocking background analysis caching using track hash signatures for instant playback upon subsequent loads.\n- **Harmonic Compatibility Analysis**: Dynamic resolution of compatible Camelot harmonic keys for seamless transitions and DJ mixing.\n\n### Changed\n- **Unified Audio Engine**: Streamlined analysis architecture into a single, high-precision hybrid DSP engine.\n- **Refined About & Settings UI**: Clean centered header layout with quick-access preferences and intuitive navigation.",
+  "version": "1.3.1",
+  "published_at": "2026-08-26T06:44:58Z",
+  "changelog": "# Changelog\n\n## [1.3.1] - Interactive Key Notation & Window Geometry Polish\n\n### Added\n- **Interactive Key Notation Toggle**: Tap the Key badge or press `K` on any keyboard layout to switch between Camelot (e.g., 8A, 2B) and Classical Key notation (e.g., A minor, C major).\n- **Persistent Key Notation Preference**: User preference is preserved in Settings across app restarts and track changes.\n- **Hardware Layout-Independent Hotkey**: Key `K` works seamlessly across QWERTY, Cyrillic, Greek, and other layouts via hardware keycode mapping.\n\n### Fixed\n- **About Window Height Geometry**: Corrected About window frame height from 120px to 128px to eliminate layout gap and match standard window dimensions.\n- **Compact Update Window Frame**: Normalized compact mode update frame height to 80px for consistent visual alignment.\n\n## [1.3.0] - Audio Intelligence Engine: Key & BPM Detection\n\n### Added\n- **Real-Time Key & Camelot Detection**: Multi-rate spectral analysis with 8x sub-bass decimation for 1.34 Hz root resolution and accurate Camelot wheel classification (e.g. 8A, 2A, 6A).\n- **Tempo & BPM Engine**: Continuous kick-onset envelope autocorrelation with sub-sample refinement, half-time compensation for trap/dubstep/dnb, and clean integer snapping.\n- **Dynamic Playback Badges**: Dedicated audio intelligence badges in the player control bar displaying BPM, musical Key, and format specifications.\n- **SQLite Analysis Cache**: Instant, non-blocking background analysis caching using track hash signatures for instant playback upon subsequent loads.\n- **Harmonic Compatibility Analysis**: Dynamic resolution of compatible Camelot harmonic keys for seamless transitions and DJ mixing.\n\n### Changed\n- **Unified Audio Engine**: Streamlined analysis architecture into a single, high-precision hybrid DSP engine.\n- **Refined About & Settings UI**: Clean centered header layout with quick-access preferences and intuitive navigation.",
   "assets": {
     "arm64": {
-      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.3.0/MIMP-arm64.zip",
-      "sha256": "0129d3c975c4409b647466765c42ba356da5985d62f53c3e80c84dea87ef0dfc"
+      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.3.1/MIMP-arm64.zip",
+      "sha256": "fc2de8b923a8b1e65bf53c87c5ac7b0af98d5195bf2e5c98504befc151109a2f"
     },
     "x64": {
-      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.3.0/MIMP-x64.zip",
-      "sha256": "84749da320c724aac65d80680bc8b717f46ddc75ab009830e07453a4c2b6fd00"
+      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.3.1/MIMP-x64.zip",
+      "sha256": "aca2a862232d623c144a1994446d2161f05d9c026e820502b476bece9cf8b067"
     }
   }
 }
