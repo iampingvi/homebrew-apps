@@ -1,7 +1,7 @@
 {
   "version": "1.3.7",
   "published_at": "2026-10-19T16:15:11Z",
-  "changelog": "# Changelog\n\n## [1.3.7]\n\n### Fixed\n- Cover art clipping\n- Track switch drop flash\n- Window height lock\n\n### Improved\n- 3-column hotkeys layout\n- CI build pipeline",
+  "changelog": "# Changelog\n\n## [1.3.7]\n\n### Added\n- Finder Spacebar preview\n- Vector audio badges\n- Hotkeys sheet (H)\n- Time toggle mode (T)\n\n### Fixed\n- Cover art clipping\n- Track switch drop flash\n- Window height lock\n- 3-column hotkeys layout",
   "assets": {
     "arm64": {
       "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.3.7/MIMP-arm64.zip",
