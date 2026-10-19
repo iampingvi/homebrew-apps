@@ -1,12 +1,12 @@
 cask "mimp" do
-  version "1.3.5"
+  version "1.3.7"
 
   on_intel do
-    sha256 "d9fbb9f4af00d4fb595b26e91942175f62a8ce383a8b9aa2a16c018cee21d6c7"
+    sha256 "d588004d179551e5f2c5504f2fe36506e8664506b2c4966c9bc7d421963abc7d"
     url "https://github.com/iampingvi/homebrew-apps/releases/download/v#{version}/MIMP-x64.zip"
   end
   on_arm do
-    sha256 "ad9387114e7f7cf441b0027446d8ba03c725652229af53e058eb30c7c6ac8c16"
+    sha256 "0629b73650e4484b3deda276c054569f057e9288dae0c70de94dd8af8415ca5b"
     url "https://github.com/iampingvi/homebrew-apps/releases/download/v#{version}/MIMP-arm64.zip"
   end
 
